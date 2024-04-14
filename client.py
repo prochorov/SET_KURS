@@ -5,7 +5,7 @@ def main():
     # Создаем TCP сокет
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # Подключаемся к серверу
-    client_socket.connect(('localhost', 5555))
+    client_socket.connect(('localhost', 8080))
 
     try:
         # Отправляем имя пользователя на сервер
